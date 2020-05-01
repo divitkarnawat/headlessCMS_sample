@@ -1,3 +1,15 @@
+App.js imports Testing.js
+Testing.js is a sample component which requests data from Wordpress using WP REST API
+  Its state consists of: isLoaded: false  (true when response is received from API call) 
+                         data: empty list (stores the response data)
+  axios(similar to fetch) is used in the ComponentDidMount() function and the state is set again
+  Finally the data is displayed if isLoaded is true
+  
+Custom Post Types and Fields(Plugins) can be used to orgainize the way data is stored on Wordpress
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
