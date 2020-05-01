@@ -1,3 +1,4 @@
+'''
 App.js imports Testing.js
 Testing.js is a sample component which requests data from Wordpress using WP REST API
   Its state consists of: isLoaded: false  (true when response is received from API call) 
@@ -6,7 +7,7 @@ Testing.js is a sample component which requests data from Wordpress using WP RES
   Finally the data is displayed if isLoaded is true
   
 Custom Post Types and Fields(Plugins) can be used to orgainize the way data is stored on Wordpress
-
+'''
 
 
 
